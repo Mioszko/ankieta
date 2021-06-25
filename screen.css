@@ -1,0 +1,124 @@
+
+
+html {
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 100;
+}
+
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+
+	overflow: hidden;
+}
+
+
+
+
+.topSectionStyle {
+    text-align: center;
+    color: #f7c15c;
+}
+
+
+
+.wynik {
+    display: none;
+}
+
+body > div.wynik {
+    padding: 20px;
+    background: rgba(230, 230, 230, 0.199);
+}
+
+
+body > div.wynik > div > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    text-align: center;
+    color: #ffa600;
+}
+
+.quizStyle {
+    padding-top: 20px;
+    color: white;
+    background: linear-gradient(#f7c05c, #fc7a7a);
+}
+
+
+.fontStyle {
+    font-size: 55px;
+    font-weight: 300;
+
+}
+
+
+.bold {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+
+}
+
+.mar {
+    margin: 30px auto;
+}
+
+.pytania {
+    
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+.wybor {
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+span.fatTop {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+span.fat {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+span.fatPytania {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.btn {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: block;
+    text-align: center;
+}
+
+.btnStyle {
+    padding: 10px 90px;
+    background: white;
+    color: rgb(253, 172, 22);
+    border: 0;
+    border-radius: 15px;
+    font-size: large;
+}
+
+

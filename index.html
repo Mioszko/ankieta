@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="screen.css">
+        <title>Na dobre i na złe</title> 
+</head>
+<body>
+
+
+
+  <!-- top section -->
+<div class="topSectionStyle">
+  <div class="container">
+      <h1 class="fontStyle">Ankieta zadowolenia pacjenta</h1>
+  </div>
+</div>
+
+<!-- result section -->
+  <div class="wynik">
+    <div class="container">
+      <p>Twój wynik <span class="fatTop">0%</span></p>
+    </div>
+  </div>
+
+<!-- quiz section-->
+<div class="quizStyle">
+  <div class="container">
+    <h3 class="bold">👋 <span class="fat">Cześć,</span> opowiedz nam: 👋</h3>
+
+
+  <form>
+    <!-- 1 pytanie--> 
+    <div class="mar">
+        <p class="pytania"><span class="fatPytania">1.Czy rejestracja</span> do kliniki przebiegła sprawnie i bezproblemowo?</p>
+
+      <div class="wybor">
+        <input type="radio" name="q1" value="A" checked>
+        <label>Tak, jestem zadowolony</label>
+      </div>
+
+      <div class="wybor">
+        <input type="radio" name="q1" value="B">
+        <label>Nie, nie jestem zadowolony</label>
+      </div>
+    </div>
+
+    <!-- 2 pytanie--> 
+    <div class="mar">
+      <p class="pytania">2.Czy czas oczekiwania na przyjęcie był zadawalający?</p>
+
+    <div class="wybor">
+      <input type="radio" name="q2" value="A" checked>
+      <label>Tak, zostałem szybko zaproszony do gabinetu</label>
+    </div>
+
+    <div class="wybor">
+      <input type="radio" name="q2" value="B">
+      <label">Nie, musiałem długo czekać</label>
+    </div>
+    </div>
+
+    <!-- 3 pytanie--> 
+    <div class="mar">
+      <p class="pytania">3.Czy kontakt z lekarzem przebiegł miło?</p>
+
+    <div class="wybor">
+      <input type="radio" name="q3" value="A" checked>
+      <label>Tak, obsługa była profesjonalna</label>
+    </div>
+
+    <div class="wybor">
+      <input type="radio" name="q3" value="B">
+      <label">Nie, pozostawia sporo do życzenia</label>
+    </div>
+    </div>
+
+    <!-- 4 pytanie--> 
+    <div class="mar">
+      <p class="pytania">4.Czy stan Twojego zdrowia uległ poprawie od ostatniej wizyty?</p>
+
+    <div class="wybor">
+      <input type="radio" name="q4" value="A" checked>
+      <label>Tak, czuję się lepiej</label>
+    </div>
+
+    <div class="wybor">
+      <input type="radio" name="q4" value="B">
+      <label">Nie, nie czuję poprawy</label>
+    </div>
+    </div>
+
+    <!-- 5 pytanie--> 
+    <div class="mar">
+      <p class="pytania">5.Czy poleciłbyś nasze centrum medyczne innym?</p>
+
+    <div class="wybor">
+      <input type="radio" name="q5" value="A" checked>
+      <label>Tak, było okej!</label>
+    </div>
+
+    <div class="wybor">
+      <input type="radio" name="q5" value="B">
+      <label">Raczej nie </label>
+    </div>
+    </div>
+
+
+
+    <!-- button-->
+    <div class="btn">
+      <input type="submit" class="btnStyle" value="✔️">
+    </div>
+
+  </form>
+
+  </div>
+</div>
+
+  <script src="appcopy.js"></script>
+</body>
+</html>
