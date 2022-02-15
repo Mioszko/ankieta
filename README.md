@@ -1,9 +1,4 @@
-Flexbox Grid
-===========
-
-[flexboxgrid.com](http://flexboxgrid.com)
-
-Grid based on the `flex` display property.
+https://mioszko.github.io/ankieta/
 
 Install
 ---------
